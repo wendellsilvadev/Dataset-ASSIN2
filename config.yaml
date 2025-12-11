@@ -1,0 +1,10 @@
+model_name: "neuralmind/bert-base-portuguese-cased"
+batch_size: 16
+lr: 2e-5
+epochs_init: 3
+epochs_finetune: 0
+max_length: 128
+seed: 42
+device: "cuda"
+per_class_small_Dl: 20
+runs: 5
